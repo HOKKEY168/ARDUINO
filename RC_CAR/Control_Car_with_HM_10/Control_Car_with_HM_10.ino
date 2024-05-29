@@ -8,7 +8,7 @@
   * Copyright (c) 2021 HOKKEY.
   * All rights reserved.
   *
-  * This code thia used to control RC CAR with bluetooth HC-06 via RC Remote App
+  * This code thia used to control RC CAR with bluetooth HM-10 via RC Remote App
   *
   ******************************************************************************
   */
