@@ -1,3 +1,17 @@
+/**
+  ******************************************************************************
+  * @file           : main.ino
+  * @brief          : Main program body for Arduino
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2021 HOKKEY.
+  * All rights reserved.
+  *
+  * This code thia used to control RC CAR with bluetooth HC-05 via RC Remote App
+  *
+  ******************************************************************************
+  */
 #include <AFMotor.h>
 //initial motors pin
 AF_DCMotor motor1(9); 
