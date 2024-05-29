@@ -1,13 +1,26 @@
+/**
+  ******************************************************************************
+  * @file           : main.ino
+  * @brief          : Main program body for Arduino
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2021 HOKKEY.
+  * All rights reserved.
+  *
+  * This code thia used to control RC CAR with bluetooth HC-06 via RC Remote App
+  *
+  ******************************************************************************
+  */
 char cmd;
 void setup() {
-  // put your setup code here, to run once:
+// put your setup code here, to run once:
 Serial.begin(9600);  
 pinMode(5,OUTPUT);
 pinMode(6,OUTPUT);
 pinMode(9,OUTPUT);
 pinMode(10,OUTPUT);
 }
-
 void loop() {
 while(Serial.available()>0){
 cmd = Serial.read();
