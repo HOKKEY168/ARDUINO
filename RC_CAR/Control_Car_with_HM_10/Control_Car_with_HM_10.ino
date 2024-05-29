@@ -1,4 +1,17 @@
-
+/**
+  ******************************************************************************
+  * @file           : main.ino
+  * @brief          : Main program body for Arduino
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2021 HOKKEY.
+  * All rights reserved.
+  *
+  * This code thia used to control RC CAR with bluetooth HC-06 via RC Remote App
+  *
+  ******************************************************************************
+  */
 #define CUSTOM_SETTINGS
 #define INCLUDE_GAMEPAD_MODULE
 #include <Dabble.h>
